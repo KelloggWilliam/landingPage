@@ -1,0 +1,43 @@
+.header {
+    background-color: navy;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header1, .header2{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.left{
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.headerlogo{
+    display: flex;
+    justify-content: start;
+    height: 72px;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.main{
+    display: flex;
+    justify-content: start;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
+.linkbox, .sub {
+    gap: 20px;
+    font-size: 26px;
+    display: flex;
+    color: gray;
+}
